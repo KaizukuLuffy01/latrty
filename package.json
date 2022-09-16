@@ -11,7 +11,7 @@
     "server": "nodemon server.js",
     "client": "npm run start --prefix froont",
     "dev": "concurrently \"npm run server\" \"npm run froont\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix froont && npm run build --prefix froont"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
 },
   "keywords": [],
   "author": "",
